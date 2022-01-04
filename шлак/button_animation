@@ -1,0 +1,61 @@
+@keyframes button1-hover {
+	0%{
+		color: rgb(0, 0, 0);
+		background: rgb(6, 169, 219);
+	
+	}
+	100%{
+		background: rgb(0, 0, 0);
+		color: rgb(6, 169, 219)
+	}
+}
+
+&:hover{
+	animation: button1-hover 0.2s linear alternate running 0s none;
+	
+}
+@keyframes button1-active {
+	0%{
+		background: rgb(0, 0, 0);
+		color: rgb(6, 169, 219)
+	}
+	100%
+		color: rgb(80, 80, 80);
+		background: rgb(1, 99, 129)
+	}
+}
+&:active{
+	animation: button1-active 0.2s linear normal running 0s forwards;
+}
+
+	&_utton2 {
+background: rgb(219, 3, 3);
+color: rgb(255, 255, 255)
+@keyframes button2-hover {
+	0%{
+		background: rgb(219, 3, 3);
+		color: rgb(255, 255, 255)
+	}
+	100%{
+		background: rgb(138, 138, 138);
+		color: rgb(219, 3, 3
+	}
+}
+
+&:hover{
+	animation: button2-hover 0.2s linear normal running 0s both;
+	
+}
+@keyframes button2-active {
+	0%{
+		background: rgb(138, 138, 138);
+		color: rgb(219, 3, 3
+	}
+	100%
+		background: rgb(73, 73, 73);
+		color: rgb(218, 83, 83
+	}
+}
+&:active{
+	animation: button2-active 0.2s linear normal running 0s both;
+}
